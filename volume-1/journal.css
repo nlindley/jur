@@ -1,0 +1,219 @@
+html {
+    margin: 0 18px;
+}
+
+body {
+    font-family: "minion-pro", "Georia", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 35em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+p, ol, ul, dl {
+    margin: 24px 0;
+}
+
+dfn {
+    font-style: italic;
+}
+
+/* Prevent sup and sub from affecting line-height */
+sup, sub, .endnote-link, .endnote-return-link {
+    font-size: 13px;
+    line-height: 1em;
+    vertical-align: baseline;
+    position: relative;
+}
+
+sup, .endnote-link, .endnote-return-link {
+    top: -0.4em;
+}
+
+sub {
+    top: 0.4em;
+}
+
+figure {
+    margin: 24px auto;
+    max-width: 558px;
+}
+
+figure img {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    padding: 24px 1em;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+body > section, body > nav, body > article {
+    margin-bottom: 276px;
+}
+
+a:link, a:visited {
+    color: #1572A3;
+}
+
+a:hover {
+    color: #1E355E;
+}
+
+a:active {
+    color: #1572A3;
+}
+
+body > nav a {
+    font-family: "proxima-nova-sc-osf", sans-serif;
+    font-weight: 700;
+    margin-left: -2em;
+    text-decoration: none;
+}
+
+body > nav a:hover {
+    text-decoration: underline;
+}
+
+body > nav p {
+    margin: 0;
+}
+
+body > nav > ol {
+    padding-left: 2em;
+    list-style: none;
+}
+
+body > nav li {
+    margin-bottom: 24px;
+}
+
+article {
+    margin: 0 auto;
+}
+
+article > header {
+    font-family: "proxima-nova";
+    font-weight: 400;
+}
+
+article > header p {
+    margin: 0;
+}
+
+.abstract {
+    margin: 24px 36px; 
+}
+
+body > header {
+    font-size: 24px;
+    line-height:48px;
+    min-height: 100vh;
+    max-width: 520px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 144px 0;
+    margin: 0 auto;
+}
+
+body > footer {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+body > footer p {
+    margin: 0;
+}
+
+dt {
+    font-family: "proxima-nova-sc-osf", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+dd {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    margin-left: 2em;
+}
+
+h1 {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}
+
+h2, h3, h4, h5 {
+    margin: 24px 0;
+}
+
+h2 {
+    font-family: "proxima-nova-condensed", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+body > header > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 42.30769231%;
+}
+
+#foreword p {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+}
+
+.field {
+    font-style: italic;
+}
+
+.contributors {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contributors li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 24px 0.5em;
+}
+
+.contributors figure {
+    width: 144px;
+    margin: 0;
+    padding; 0;
+}
+
+.contributors figure img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
